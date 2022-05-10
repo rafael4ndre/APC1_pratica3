@@ -5,7 +5,7 @@
 int main(void) {
     float valor; 
     printf("Digite o valor bruto: \n"); 
-    scanf("%d" ,&valor);
+    scanf("%f" ,&valor);
 
     if(valor <= 100){
         valor=valor-(valor*0.01);
@@ -15,6 +15,6 @@ int main(void) {
         valor=valor-(valor*0.10);
     }
 
-    printf("O valor final é: \n" ,valor);
+    printf("O valor final é: %f \n" ,valor);
 
 }
